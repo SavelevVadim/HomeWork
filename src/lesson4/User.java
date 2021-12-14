@@ -25,7 +25,7 @@ public class User {
     }
 
 
-    public void printInfo(String name, String surname, int age, Gender type,String city,String country) {
+    public void printInfo(String name, String surname, int age, Gender type, String city, String country) {
         sexOfAPerson = type;
         this.name = name;
         this.surname = surname;
@@ -34,8 +34,6 @@ public class User {
         adress = new Adress(city, country);
 
     }
-
-
 
 
     public class Adress {
