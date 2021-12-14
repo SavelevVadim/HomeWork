@@ -32,7 +32,7 @@ public class Tester {
             default:
                 System.out.println("input is not correct");
         }
-        User user1 = new User ("Vadim","Savelev",30,Gender.MAN,"Moscow","RF");
+        User user1 = new User("Vadim", "Savelev", 30, Gender.MAN, "Moscow", "RF");
 
         Cat cat1 = new Cat("barsik", 10);
 
